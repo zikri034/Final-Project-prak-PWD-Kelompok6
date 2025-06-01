@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      background-color: #121212;
+      color: #333;
+    }
+
+    header {
+            background-color: #1c1c1c;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+       .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #6200ea;
+}
+
+    h1, h2 {
+      color: #6200ea;
+      text-align: center;
+    }
+
+    .map {
+      margin: 30px auto;
+      max-width: 100%;
+      border: none;
+      border-radius: 10px;
+      height: 350px;
+      display: block;
+    }
+
+    .testimonials {
+      max-width: 800px;
+      margin: 40px auto;
+    }
+
+    .testimonial {
+      background-color: #ffffff;
+      border-left: 5px solid #6200ea;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .testimonial strong {
+      display: block;
+      font-size: 1.1em;
+      margin-bottom: 5px;
+    }
+
+    .hours {
+      max-width: 500px;
+      margin: 40px auto;
+    }
+
+    .hours table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .hours th, .hours td {
+      padding: 12px 15px;
+      text-align: left;
+    }
+
+    .hours th {
+      background-color: #6200ea;
+      color: white;
+    }
+
+    .hours tr:nth-child(even) {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <header style="background-color: #1c1c1c; padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <h1 style="margin: 0; font-size: 28px;">SingZone</h1>
+    <nav style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+      <a href="indeks.php" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="songcatalog.html" class="nav-link">Song Catalog</a>
+        <a href="register_member.php" class="nav-link">Membership</a>
+        <a href="contacts.php" class="nav-link">Contact</a>
+        <a href="login.php" title="Go to profile">
+            <img src="profile.png" alt="User Profile" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
+        </a>
+    </nav>
+</header>
+  <h1>About Us</h1>
+
+  <h2>Our Location</h2>
+  <iframe class="map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.757250338602!2d110.4080005!3d-7.8180206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a591f1bffce15%3A0xe2b5f7c3ccf3f3d4!2sJl.%20Ngelarensari%2C%20Ngropoh%2C%20Condongcatur%2C%20Kec.%20Depok%2C%20Kabupaten%20Sleman%2C%20Daerah%20Istimewa%20Yogyakarta%2055281!5e0!3m2!1sen!2sid!4v1715670241091!5m2!1sen!2sid"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <h2>Testimonials</h2>
+  <div class="testimonials">
+    <div class="testimonial">
+      <strong>Sarah ★★★★☆</strong>
+      <p>Great place with a fantastic atmosphere! Highly recommend.</p>
+    </div>
+    <div class="testimonial">
+      <strong>James ★★★★★</strong>
+      <p>Excellent service and friendly staff. Will definitely come back!</p>
+    </div>
+    <div class="testimonial">
+      <strong>Emily ★★★★☆</strong>
+      <p>A wonderful experience from start to finish.</p>
+    </div>
+  </div>
+
+  <h2>Operating Hours</h2>
+  <div class="hours">
+    <table>
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Opening Hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>9:00 AM – 8:00 PM</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>9:00 AM – 8:00 PM</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>9:00 AM – 8:00 PM</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>10:00 AM – 6:00 PM</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+   <!-- Footer -->
+       <footer style="background-color: #000; color: #fff; text-align: center; padding: 20px;">
+        <div>
+            <p style="margin: 0;">&copy; 2025 Sing it out loud! All rights reserved.</p>
+            <small>
+                Follow us on
+                <a href="https://www.instagram.com/zikrihermwan?igsh=bHJ2eXFmZ3g2YnRz" style="color: #bbb; text-decoration: none;">Instagram</a>,
+                <a href="#" style="color: #bbb; text-decoration: none;">Twitter</a>,
+                <a href="#" style="color: #bbb; text-decoration: none;">YouTube</a>
+            </small>
+        </div>
+    </footer> 
+    
+</body>
+</html>
